@@ -1,0 +1,17 @@
+table, tr, th, td {
+    border: 2px solid blue;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+th {
+    color: white;
+    background-color: cadetblue;
+}
+
+tr, th {
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    vertical-align: center;
+}

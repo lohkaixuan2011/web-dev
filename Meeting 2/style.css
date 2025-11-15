@@ -1,0 +1,32 @@
+/* .first {
+    background-color: cornflowerblue;
+}
+.second {
+    margin:30px;
+    background-color: cornflowerblue;
+    border:5px solid lightgreen;
+    padding: 5px;
+}
+p {
+    color: blue;
+}
+#demo {
+    color: green;
+    text-align: center;
+}
+.important {
+    color: red;
+    background-color: black;
+}
+.fancy {
+    text-shadow: 2px 2px 3px green;
+} */
+/* * {
+    color: green;
+} */
+ h1, h2 {
+    color: red;
+ }
+ p {
+    color: blue;
+ }
