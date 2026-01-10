@@ -1,0 +1,9 @@
+label,
+input {
+    margin: 5px;
+}
+
+textarea {
+    max-width: 200px;
+    max-height: 150px;
+}
