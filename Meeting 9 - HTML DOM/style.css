@@ -1,0 +1,19 @@
+.red {
+    color: red
+}
+
+.blue {
+    color:blue
+}
+
+.yellow {
+    color: yellow
+}
+
+button {
+    background-color: lightgreen;
+    color: red;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+}
