@@ -11,13 +11,13 @@
 <body>
     <form>
         <label for="name">Name</label> <br>
-        <input id="name" type="text" name="name" placeholder="Your Name" required> <br>
+        <input id="name" type="text" name="name" placeholder="Your Name" value="Timedoor Academy" readonly> <br>
 
         <label for="email">Email</label> <br>
         <input id="email" type="email" name="email" placeholder="Email" required> <br>
 
         <label for="address">Address</label> <br>
-        <textarea name="address" id="address" cols="20px" rows="15px" placeholder="Your Address" required></textarea> <br>
+        <textarea name="address" id="address" cols="20px" rows="15px" placeholder="Your Address"></textarea> <br>
 
         <label for="phoneNumber">Phone Number</label> <br>
         <input id="phoneNumber" type="text" name="phoneNumber" placeholder="Your Phone Number" required> <br>
@@ -29,7 +29,7 @@
         <input id="age" type="number" name="age" min="8" max="16" placeholder="Ex.10" required> <br>
 
         <label for="birthDate">Birth Day</label> <br>
-        <input id="birthDate" type="date" name="birthDate" required> <br>
+        <input id="birthDate" type="date" name="birthDate" min="1-1-2026" max="31-1-2026"> <br>
         
         <label>Gender</label> <br>
         <input id="gender" type="radio" name="gender" value="male" class="check" required>
@@ -49,7 +49,7 @@
         <label for="document">Contract Form</label> <br>
 
         <label for="file">Upload File</label> <br>
-        <input id="file" type="file" name="file" required> <br>
+        <input id="file" type="file" name="file" multiple required> <br>
         
         <input type="submit">
     </form>
