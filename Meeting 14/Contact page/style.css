@@ -56,3 +56,12 @@
     outline: none;
     margin-top: 10px;
 }
+
+.sudmit {
+    border-style: none;
+    border-radius: 25px;
+    color: aliceblue;
+    background-color: rgb(38, 70, 83);
+    margin: 5px;
+    cursor: pointer;
+}
