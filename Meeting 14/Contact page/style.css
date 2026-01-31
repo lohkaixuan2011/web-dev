@@ -1,0 +1,19 @@
+.contact-container {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.illustration-img {
+    margin: 0px;
+    width: 800px;
+}
+
+.contact {
+    display: inline-block;
+    margin: 10px 30px;
+    text-align: center;
+}
+
+.profile-contact-img {
+    width: 200px;
+}

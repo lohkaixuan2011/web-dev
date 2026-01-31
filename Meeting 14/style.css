@@ -1,0 +1,14 @@
+/* General sibling selector */
+h3 ~ p {
+    color: yellow;
+}
+
+/* Adjacent Sibling Selector */
+h1 + p {
+    color: green;
+}
+
+/* Child Selector */
+div > p {
+    color: red;
+}
