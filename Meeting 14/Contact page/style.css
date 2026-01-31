@@ -40,3 +40,19 @@
     font-size: 15px;
     height: 100%;
 }
+
+.textarea-container {
+    display: flex;
+    justify-content: center;
+}
+
+.form-textarea {
+    position: relative;
+}
+
+.textarea {
+    border-style: none;
+    border-bottom: 1px solid gray;
+    outline: none;
+    margin-top: 10px;
+}
