@@ -1,0 +1,21 @@
+input {
+    width: 15%;
+    margin: 2%;
+    border-radius: 10%;
+}
+
+.role {
+    width: 13%;
+}
+
+.communication {
+    width: 17%;
+}
+
+#email {
+    width: 24%;
+}
+
+form {
+    background-color: aquamarine;
+}

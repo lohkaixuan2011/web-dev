@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <form action="submit.html">
+        <label for="name">Name</label> <br>
+        <input id="name" type="text" name="name" placeholder="Your name" required autofocus> <br>
+
+        <label for="number">Number</label> <br>
+        <input id="number" type="text" name="number" placeholder="Your number" required> <br>
+
+        <label for="age">Age</label> <br>
+        <input id="age" type="number" name="age" min="8" max="18" placeholder="Your age" required> <br>
+
+        <label for="rank">Rank</label> <br>
+        <select name="rank" id="rank">
+            <option value="warrior">Warrior (III to I)</option>
+            <option value="elite">Elite (IV to I)</option>
+            <option value="grandmaster">Grandmaster (IV to I)</option>
+            <option value="epic">Epic (IV to I)</option>
+            <option value="legend">Legend (V to I)</option>
+            <option value="mythic">Mythic (0-24 Starts)</option>
+            <option value="mythic1">Mythical Honor (25 to 49 Stars)</option>
+            <option value="mythic2">Mythical Glory (50+ Stars)</option>
+            <option value="mythic3">Mythical Glory (50+ Stars)</option>
+        </select> <br>
+
+        <label for="role">Role</label>
+        <div class="role">
+            <input id="tank" type="radio" name="role" value="tank" required>
+            <label for="tank">Tank</label> <br>
+
+            <input id="fighter" type="radio" name="role" value="fighter" required>
+            <label for="fighter">Fighter</label> <br>
+
+            <input id="assassin" type="radio" name="role" value="assassin" required>
+            <label for="assassin">Assassin</label> <br>
+
+            <input id="mage" type="radio" name="role" value="mage" required>
+            <label for="mage">Mage</label> <br>
+
+            <input id="marksman" type="radio" name="role" value="marksman" required>
+            <label for="marksman">Marksman</label> <br>
+
+            <input id="support" type="radio" name="role" value="support" required>
+            <label for="support">Support</label> <br>
+        </div>
+        
+        <label>Communication tools</label>
+        <div class="communication">
+            <input id="in-game-voice" type="checkbox" name="communcation-tools" value="in-game-voice">
+            <label for="in-game-voice">In-game voice</label> <br>
+
+            <input id="discord" type="checkbox" name="communcation-tools" value="discord">
+            <label for="discord">Discord</label> <br>
+
+            <input id="whatsapp" type="checkbox" name="communcation-tools" value="whatsapp">
+            <label for="whatsapp">whatsapp</label> <br>
+        </div>
+        
+        <label for="email">Email</label> <br>
+        <input id="email" type="email" name="email" placeholder="Your email" required> <br>
+
+        <input type="submit">
+    </form>
+
+</body>
+
+</html>
