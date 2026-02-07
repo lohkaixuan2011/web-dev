@@ -18,6 +18,12 @@
     width: 200px;
 }
 
+.form-label {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
 .form-input {
     position: relative;
     width: 100%;
