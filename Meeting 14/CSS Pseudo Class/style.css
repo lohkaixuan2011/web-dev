@@ -1,0 +1,27 @@
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: red;
+}
+
+input[type=number]:placeholder-shown {
+    background-color: bisque;
+}
+
+input:enabled {
+    background-color: white;
+}
+
+input:disabled {
+    background-color: coral;
+}
+
+* {
+    color: black;
+}
+
+:not(label) {
+    color: brown;
+}
