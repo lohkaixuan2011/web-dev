@@ -57,11 +57,37 @@
     margin-top: 10px;
 }
 
-.sudmit {
+.submit {
     border-style: none;
     border-radius: 25px;
     color: aliceblue;
     background-color: rgb(38, 70, 83);
     margin: 5px;
     cursor: pointer;
+}
+
+.input-item:focus + .form-label {
+    top:-5px;
+    left: -2px;
+    font-size: 10px;
+}
+
+.textarea:focus + .form-label {
+    top: -5px;
+    left: -2px;
+    font-size: 10px;
+}
+
+.input-item:not(:placeholder-shown).input-item:not(:focus) {
+    top: -2px;
+    left: -2px;
+    font-size: 10px;
+    color: rgb(138, 130, 130);
+}
+
+.textarea:not(:placeholder-shown).textarea:not(:focus) {
+    top: -2px;
+    left: -2px;
+    font-size: 10px;
+    color: rgb(138, 130, 130);
 }
