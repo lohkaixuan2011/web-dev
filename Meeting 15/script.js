@@ -4,12 +4,12 @@ var btnClose = document.querySelector("span");
 
 if (button) {
     button.addEventListener("click", function () {
-        modal.style.visiblity = "visible";
+        modal.style.visibility = "visible";
     });
 }
 
 if (btnClose) {
     btnClose.addEventListener("click", function () {
-        modal.style.visiblity = "hidden";
+        modal.style.visibility = "hidden";
     });
 }
