@@ -1,5 +1,5 @@
 var slides = document.querySelectorAll(".slide");
-var buttons = document.querySelectorAll(".slide-btn")
+var buttons = document.querySelectorAll(".slider-btn")
 let currentSlider = 1
 
 function changeText() {

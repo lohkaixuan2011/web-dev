@@ -228,7 +228,7 @@ iframe {
     margin: 0 5px;
 }
 
-.slider.active {
+.slide.active {
     clip-path: circle(150% at 0 50%);
     transition: 2s;
     transition-property: clip-path;
