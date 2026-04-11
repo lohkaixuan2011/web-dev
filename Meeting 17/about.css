@@ -141,14 +141,15 @@ body {
     flex-wrap: warp;
     margin-top: 20px;
     justify-content: center;
+    flex-direction: column;
 }
 
 .activity-item {
-    padding: 20px;
+    padding: 15px;
     background-color: white;
     box-shadow: 0 0 3px gainsboro;
     border-radius: 5px;
-    margin: 10px;
+    margin: 5px;
 }
 
 .activity-item img {
