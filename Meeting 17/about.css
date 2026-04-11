@@ -135,3 +135,23 @@ body {
         width: 90%;
     }
 }
+
+.activity-flex {
+    display: flex;
+    flex-wrap: warp;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.activity-item {
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 3px gainsboro;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.activity-item img {
+    width: 300px;
+    height: auto;
+}
