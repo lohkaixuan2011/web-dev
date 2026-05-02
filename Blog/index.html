@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script src="https://kit.fontawesome.com/f90068558c.js" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
@@ -31,7 +32,7 @@
                         <h2 class="jumbotron-text">Just New In The Programming World? <br> Let's Start with Crreating
                             Simple <span style="color: #f4a261;">Game and Website</span></h2>
                         <div class="mini-text-flex">
-                            <p class="mini-text">Lern Basic Programming Here</p>
+                            <p class="mini-text">Learn Basic Programming Here</p>
                             <button id="icon-up" onclick="changeText()">
                                 <i class="far fa-hand-point-up"></i>
                             </button>
@@ -46,21 +47,27 @@
                     </div>
                 </div>
             </div>
+
+            <div class="wave-container">
+
+                <svg class="wave2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                    <path fill="#ffffff" fill-opacity="1" d="M0,256L80,224C160,192,320,128,480,
+                    138.7C640,149,800,235,960,261.3C1120,288,1280,256,1360,240L1440,224L1440,
+                    320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,
+                    320,80,320L0,320Z">
+                    </path>
+                </svg>
+
+                <svg class="wave1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                    <path fill="#000b76" fill-opacity="1" d="M0,256L80,224C160,192,320,128,480,
+                    138.7C640,149,800,235,960,261.3C1120,288,1280,256,1360,240L1440,224L1440,
+                    320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,
+                    320,80,320L0,320Z">
+                    </path>
+                </svg>
+
+            </div>
         </section>
-
-        <svg class="wave1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-            <path fill="#273076" fill-opacity="1" d="M0,96L80,128C160,160,320,224,480,
-            224C640,224,800,160,960,149.3C1120,139,1280,181,1360,202.7L1440,224L1440,
-            320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,
-            320,80,320L0,320Z"></path>
-        </svg>
-
-        <svg class="wave2" xmlns="http://www.w3.or g/2000/svg" viewBox="0 0 1440 320">
-            <path fill="#ffff" fill-opacity="1" d="M0,96L80,128C160,160,320,224,480,
-            224C640,224,800,160,960,149.3C1120,139,1280,181,1360,202.7L1440,224L1440,
-            320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,
-            320,80,320L0,320Z"></path>
-        </svg>
 
         <section>
             <div class="main-content">
@@ -69,13 +76,19 @@
                         <h3 class="article-litle">My Project</h3>
                         <div class="project-contanier">
                             <div class="project">
-                                <img src="assets/Screenshot (7).png" alt="" width="300px" height="210px">
+                                <div data-aos="fade-up-right" data-aos-offset="100" data-aos-delay="90"
+                                    data-aos-duration="2000">
+                                    <img src="assets/Screenshot (7).png" alt="" width="300px" height="210px">
+                                </div>
                                 <h4 class="project-title">Florist Shop Web</h4>
                                 <p class="project-description">A website for people to buy flowers use code CSS, HTML &
                                     JavaScript to make</p>
                             </div>
                             <div class="project">
-                                <img src="assets/Screenshot (9).png" alt="" width="300px" height="210px">
+                                <div data-aos="fade-up-left" data-aos-offset="100" data-aos-delay="90"
+                                    data-aos-duration="2000">
+                                    <img src="assets/Screenshot (9).png" alt="" width="300px" height="210px">
+                                </div>
                                 <h4 class="project-title">Math Fighter</h4>
                                 <p class="project-description">A game to help you improve your math uses Phaser platdorm
                                 </p>
@@ -85,27 +98,35 @@
                     <article id="video">
                         <div class="item-video">
                             <h3 class="article-titlt">What is Coding?</h3>
-                            <iframe width="500" height="350"
-                                src="https://www.youtube.com/embed/XMZFUnAgOqs?si=pxvDo55-ZxBmaoZ4"
-                                title="YouTube video player" frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            <div data-aos="fade-down-left" data-aos-offset="100" data-aos-delay="90"
+                                data-aos-duration="2000">
+                                <iframe width="500" height="350"
+                                    src="https://www.youtube.com/embed/XMZFUnAgOqs?si=pxvDo55-ZxBmaoZ4"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            </div>
 
                             <h3 class="article-litle">Coding is Not Difficult!</h3>
-                            <iframe width="500" height="350"
-                                src="https://www.youtube.com/embed/hb7Q33ysCwI?si=bA1f1A_w3v3qRwFI"
-                                title="YouTube video player" frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            <div data-aos="fade-down-right" data-aos-offset="100" data-aos-delay="90"
+                                data-aos-duration="2000">
+                                <iframe width="500" height="350"
+                                    src="https://www.youtube.com/embed/hb7Q33ysCwI?si=bA1f1A_w3v3qRwFI"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            </div>
                         </div>
                     </article>
                     <div class="content">
                         <article id="maps">
                             <div class="maps">
-                                <iframe
-                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15935.880537356761!2d101.71880538073343!3d3.1025923777582!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc35e675646c83%3A0x77a78614ef5b1da3!2sZecon%20Hotel!5e0!3m2!1sen!2smy!4v1766208296577!5m2!1sen!2smy"
-                                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                <div data-aos="zoom-in" data-aos-offset="100" data-aos-delay="90" data-aos-duration="2000">
+                                    <iframe
+                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15935.880537356761!2d101.71880538073343!3d3.1025923777582!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc35e675646c83%3A0x77a78614ef5b1da3!2sZecon%20Hotel!5e0!3m2!1sen!2smy!4v1766208296577!5m2!1sen!2smy"
+                                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                </div>
                             </div>
                         </article>
                     </div>
@@ -167,6 +188,7 @@
 
     </footer>
 
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="script.js"></script>
 </body>
 
