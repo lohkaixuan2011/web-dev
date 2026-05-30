@@ -117,9 +117,27 @@ body {
         font-size: 0.9rem;
     }
 
+    .blob-image {
+        max-width: 60%;
+        max-height: 60%;
+        transform: rotate(-90deg);
+    }
+
     .blogger-image {
-        margin-top: -50px;
-        width: 50%;
+        
+        position: absolute;
+        max-width: 27%;
+        max-height: 50%;
+        left: 37%;
+        top: 100px;
+    }
+
+    .about-description p {
+        width: 80%;
+    }
+
+    .skill-item {
+        margin: 5px;
     }
 
     .skill-flex {
@@ -130,6 +148,9 @@ body {
     .skill-item {
         width: 90%;
     }
+
+
+
 }
 
 .activity-flex {
