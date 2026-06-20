@@ -60,7 +60,7 @@ nav a {
     font-size: 100px;
     text-align: left;
     margin-bottom: 30px;
-    padding: 100px;
+    padding: 10px;
 }
 
 #text1 {
@@ -68,33 +68,79 @@ nav a {
     line-height: 1.8;
     text-align: center;
     color: #ffffff;
+    padding: 10px;
+
+    width: 70%;
+    /* controls paragraph width */
+    max-width: 800px;
+    /* stops becoming too wide */
+
+    margin: auto;
+
+    font-size: clamp(16px, 2vw, 24px);
+
+    word-wrap: break-word;
+}
+
+
+/* Whole page scroll container */
+html {
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+/* Every section = one full screen */
+section {
+    height: 100vh;
+    width: 100%;
+    scroll-snap-align: start;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.section3 {
+    display: flex;
+}
+
+.h2-container {
+    display: flex;
+    justify-content: space-between;
+
+    width: 80%;
+    margin: 10px;
+}
+
+.h2-container h2 {
+    text-align: center;
+}
+
+#text2 {
+    text-align: center;
+    color: #ffffff;
     padding: 20px;
-}
 
-/* STARS */
+    width: 95%;
+    /* controls paragraph width */
+    max-width: 700px;
+    /* stops becoming too wide */
 
-.stars {
-    width: 200px;
-    height: auto;
-}
+    margin: 10px;
 
-#stars1 {
-    position: absolute;
-    left: 15%;
-    top: 65%;
-    transform: translateX(-50%);
-}
+    font-size: clamp(20px, 2vw, 18px);
+    line-height: 1.6;
 
-#stars2 {
-    position: absolute;
-    left: 25%;
-    top: 40%;
-    transform: translateX(-50%);
-}
 
-#stars3 {
-    position: absolute;
-    left: 80%;
-    top: 47%;
-    transform: translateX(-50%);
+    word-wrap: break-word;
 }
