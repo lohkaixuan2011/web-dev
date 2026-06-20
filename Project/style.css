@@ -1,0 +1,100 @@
+body {
+    height: 100vh;
+
+    background-image: url(assets/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    margin: 0;
+    font-family: Poppins, sans-serif;
+}
+
+/* HERO SECTION */
+
+.hero {
+    color: white;
+    text-align: center;
+}
+
+/* NAVBAR */
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding: 45px;
+}
+
+nav a {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+/* HERO TEXT */
+
+#white {
+    color: rgb(255, 255, 255);
+    font-size: 100px;
+    text-align: center;
+    font-family: Poppins, sans-serif;
+
+    line-height: 1.2;
+    margin: 0;
+}
+
+#white2 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    word-spacing: 10px;
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+
+/* CONTENT SECTION */
+
+#text {
+    color: rgb(0, 0, 0);
+    font-size: 100px;
+    text-align: left;
+    margin-bottom: 30px;
+    padding: 100px;
+}
+
+#text1 {
+    font-size: 30px;
+    line-height: 1.8;
+    text-align: center;
+    color: #ffffff;
+    padding: 20px;
+}
+
+/* STARS */
+
+.stars {
+    width: 200px;
+    height: auto;
+}
+
+#stars1 {
+    position: absolute;
+    left: 15%;
+    top: 65%;
+    transform: translateX(-50%);
+}
+
+#stars2 {
+    position: absolute;
+    left: 25%;
+    top: 40%;
+    transform: translateX(-50%);
+}
+
+#stars3 {
+    position: absolute;
+    left: 80%;
+    top: 47%;
+    transform: translateX(-50%);
+}
