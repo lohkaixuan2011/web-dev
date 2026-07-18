@@ -241,12 +241,10 @@ footer {
 }
 
 .box2 {
-    width: 1000px;
-    padding: 10px;
-    background-color: rgba(255, 255, 255, 0.2);
-    color: rgb(0, 0, 0);
+    width: 350px;
+    padding: 20px;
+    background-color: rgb(28 124 202 / 55%);
     border-radius: 15px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
 .contentAbout{
@@ -296,4 +294,40 @@ footer {
 .about-right .text2{
     text-align:left;
     margin:0;
+}
+
+.ocean-layout {
+    position: relative;
+    width: 1100px;
+    height: 500px;
+    margin: auto;
+}
+
+.ocean-img {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    width: 350px;
+    height: 430px;
+
+    object-fit: cover;
+    border: 8px solid white;
+    border-radius: 15px;
+
+    z-index: 0;
+}
+
+.gulf-box {
+    position: absolute;
+    right: 220px;
+    bottom:  20px;
+
+    z-index: 1;
+}
+
+.box2:first-child {
+    position: absolute;
+    left: 0;
+    bottom: 20px;
 }
