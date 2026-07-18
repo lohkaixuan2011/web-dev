@@ -241,8 +241,8 @@ footer {
 }
 
 .box2 {
-    width: 350px;
-    padding: 20px;
+    width: clamp(260px, 25vw, 350px);
+    padding: clamp(12px, 1.5vw, 20px);
     background-color: rgb(28 124 202 / 55%);
     border-radius: 15px;
 }
@@ -298,8 +298,8 @@ footer {
 
 .ocean-layout {
     position: relative;
-    width: 1100px;
-    height: 500px;
+    width: min(90%, 1100px);
+    height: clamp(320px, 55vh, 500px);
     margin: auto;
 }
 
@@ -308,8 +308,8 @@ footer {
     top: 0;
     right: 0;
 
-    width: 350px;
-    height: 430px;
+    width: clamp(220px, 28vw, 350px);
+    height: clamp(280px, 45vh, 430px);
 
     object-fit: cover;
     border: 8px solid white;
@@ -320,7 +320,7 @@ footer {
 
 .gulf-box {
     position: absolute;
-    right: 220px;
+    right: clamp(120px, 18vw, 220px);
     bottom:  20px;
 
     z-index: 1;
